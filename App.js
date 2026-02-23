@@ -203,7 +203,7 @@ function App() {
               Live Map View
             </h2>
             
-            <LoadScript googleMapsApiKey="AIzaSyBQtMAbx95EoJDrRuCpBCMgOlQQqOwJ8Jo">
+            <LoadScript googleMapsApiKey="">
               <GoogleMap mapContainerStyle={mapContainerStyle} center={mapCenter} zoom={13.5} options={mapOptions}>
                 
                 {/* Zone Boundaries - DASHED */}
